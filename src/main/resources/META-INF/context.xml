@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+    <context reloadable="true">
+         <Resource name="jdbc/myimage" auth="Container" type="javax.sql.DataSource"
+                   type="javax.sql.DataSource"
+                   maxActive="100" maxIdle="40" maxWait="1000"
+                   username="teste"
+                   password="jcrfbest40" driverClassName="org.gjt.mm.mysql.Driver"
+                   useSSL="false"
+                   url="jdbc:mysql://localhost:3306/myimage?autoReconnect=true" />
+    </context>
+

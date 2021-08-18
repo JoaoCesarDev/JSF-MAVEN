@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html">
+    
+    <ui:composition template="/public/template_initial.xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets">
+    <ui:define name="nav_bar">
+        <ui:include src="/public/top_bar_register.xhtml" />
+    </ui:define>
+    <ui:define name="container">
+        <div class="row">
+            <div class="container" style="padding-top: 50px;">Cadastrado.</div>
+        </div>
+    </ui:define>
+    </ui:composition>
+</html>
